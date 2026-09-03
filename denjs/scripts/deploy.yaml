@@ -16,7 +16,20 @@ nodes:
     position:
       x: 400
       y: 80
+  - id: node-ae8bf471
+    type: action.http
+    label: "Действие: HTTP-запрос"
+    config:
+      method: GET
+      url: ""
+      body: ""
+    position:
+      x: 720
+      y: 80
 edges:
   - id: xy-edge__node-96ae008a-node-0d0d1440
     source: node-96ae008a
     target: node-0d0d1440
+  - id: xy-edge__node-0d0d1440-node-ae8bf471
+    source: node-0d0d1440
+    target: node-ae8bf471
