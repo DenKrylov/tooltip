@@ -1,3 +1,9 @@
 name: new/new
-nodes: []
+nodes:
+  - id: node-c50c3bbf
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 80
+      y: 80
 edges: []
