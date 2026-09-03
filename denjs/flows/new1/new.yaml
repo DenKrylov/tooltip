@@ -1,0 +1,21 @@
+name: new/new
+nodes:
+  - id: node-c50c3bbf
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 80
+      y: 80
+  - id: node-14452a9a
+    type: trigger.schedule
+    label: Расписание
+    position:
+      x: 400
+      y: 80
+  - id: node-96bfd461
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 720
+      y: 80
+edges: []
