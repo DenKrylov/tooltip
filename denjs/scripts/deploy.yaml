@@ -1,3 +1,22 @@
-name: deploy
-nodes: []
-edges: []
+name: deploy.yaml
+nodes:
+  - id: node-96ae008a
+    type: trigger.manual
+    label: "Триггер: вручную"
+    position:
+      x: 80
+      y: 80
+  - id: node-0d0d1440
+    type: action.http
+    label: "Действие: HTTP-запрос"
+    config:
+      method: GET
+      url: ""
+      body: ""
+    position:
+      x: 400
+      y: 80
+edges:
+  - id: xy-edge__node-96ae008a-node-0d0d1440
+    source: node-96ae008a
+    target: node-0d0d1440
