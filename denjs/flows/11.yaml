@@ -1,9 +1,0 @@
-name: aa
-nodes:
-  - id: node-7d12dbd6
-    type: trigger.manual
-    label: Вручную
-    position:
-      x: 80
-      y: 80
-edges: []
