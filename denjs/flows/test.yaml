@@ -1,3 +1,9 @@
 name: test
-nodes: []
+nodes:
+  - id: node-473deee9
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 80
+      y: 80
 edges: []
