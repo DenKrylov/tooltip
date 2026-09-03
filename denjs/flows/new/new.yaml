@@ -6,4 +6,10 @@ nodes:
     position:
       x: 80
       y: 80
+  - id: node-14452a9a
+    type: trigger.schedule
+    label: Расписание
+    position:
+      x: 400
+      y: 80
 edges: []
