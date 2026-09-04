@@ -1,3 +1,9 @@
-name: 13
-nodes: []
+name: 13.yaml
+nodes:
+  - id: node-c48664a7
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 80
+      y: 80
 edges: []
