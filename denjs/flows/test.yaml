@@ -6,4 +6,10 @@ nodes:
     position:
       x: 80
       y: 80
+  - id: node-3287047d
+    type: trigger.manual
+    label: Вручную
+    position:
+      x: 400
+      y: 80
 edges: []
