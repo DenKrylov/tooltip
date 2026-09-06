@@ -1,0 +1,79 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog {
+  min-width: 260px;
+  max-width: 400px;
+  border-radius: 8px;
+  padding: 20px;
+  background: var(--dialog-bg, #1f1f23);
+  color: var(--dialog-color, #f5f5f5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dialog[data-theme='light'] {
+  background: var(--dialog-bg-light, #ffffff);
+  color: var(--dialog-color-light, #18181b);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.cancelButton,
+.confirmButton {
+  min-width: 100px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  background: transparent;
+}
+
+.cancelButton {
+  color: inherit;
+}
+
+.confirmButton {
+  background: #d14343;
+  border-color: #d14343;
+  color: #fff;
+}
+
+.cancelButton:focus-visible,
+.confirmButton:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.dialog[data-theme='light'] .confirmButton {
+  color: #fff;
+}

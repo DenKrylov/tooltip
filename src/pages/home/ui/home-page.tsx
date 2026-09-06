@@ -1,7 +1,5 @@
+import { PortalShowcase } from '@/pages/portal-showcase'
+
 export function HomePage() {
-  return (
-    <main className="home-page">
-      Home
-    </main>
-  )
+  return <PortalShowcase />
 }
